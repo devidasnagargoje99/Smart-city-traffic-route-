@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: pune-smart-city-traffic
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: singapore
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: ENV
+        value: production
+      - key: DEBUG
+        value: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///./traffic_system.db
+      - key: SIMULATION_MODE
+        value: true

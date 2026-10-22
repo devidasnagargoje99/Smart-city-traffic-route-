@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "id": "shivaji_chowk",
+      "name": "Shivaji Chowk (Hinjawadi Gateway)",
+      "latitude": 18.5912,
+      "longitude": 73.7389,
+      "intersection_type": "signalized_roundabout",
+      "has_signal": true
+    },
+    {
+      "id": "bhumkar_chowk",
+      "name": "Bhumkar Chowk (Wakad-NH48 Underpass)",
+      "latitude": 18.5982,
+      "longitude": 73.7548,
+      "intersection_type": "signalized_junction",
+      "has_signal": true
+    },
+    {
+      "id": "wakad_flyover",
+      "name": "Wakad Chowk (NH48 Highway Junction)",
+      "latitude": 18.5925,
+      "longitude": 73.7634,
+      "intersection_type": "grade_separated",
+      "has_signal": true
+    },
+    {
+      "id": "wakad_bridge",
+      "name": "Hinjawadi-Wakad Bridge (Mula River)",
+      "latitude": 18.596,
+      "longitude": 73.748,
+      "intersection_type": "river_crossing",
+      "has_signal": false
+    },
+    {
+      "id": "dange_chowk",
+      "name": "Dange Chowk (Thergaon-Chinchwad Link)",
+      "latitude": 18.6111,
+      "longitude": 73.7712,
+      "intersection_type": "signalized_flyover",
+      "has_signal": true
+    },
+    {
+      "id": "blue_ridge_chowk",
+      "name": "Blue Ridge Township Junction",
+      "latitude": 18.594,
+      "longitude": 73.734,
+      "intersection_type": "junction",
+      "has_signal": false
+    },
+    {
+      "id": "hinjawadi_ph1_circle",
+      "name": "Infosys Circle (Hinjawadi Phase 1)",
+      "latitude": 18.5885,
+      "longitude": 73.725,
+      "intersection_type": "signalized_circle",
+      "has_signal": true
+    },
+    {
+      "id": "marunji_junction",
+      "name": "Marunji Road Junction (Phase 1 North)",
+      "latitude": 18.6015,
+      "longitude": 73.7225,
+      "intersection_type": "junction",
+      "has_signal": false
+    },
+    {
+      "id": "wipro_circle_ph2",
+      "name": "Wipro Circle (Hinjawadi Phase 2)",
+      "latitude": 18.5833,
+      "longitude": 73.7082,
+      "intersection_type": "signalized_circle",
+      "has_signal": true
+    },
+    {
+      "id": "quadron_ph2",
+      "name": "Quadron Business Park (Phase 2)",
+      "latitude": 18.5805,
+      "longitude": 73.702,
+      "intersection_type": "junction",
+      "has_signal": false
+    },
+    {
+      "id": "megapolis_ph3",
+      "name": "Megapolis Circle (Hinjawadi Phase 3)",
+      "latitude": 18.5772,
+      "longitude": 73.6891,
+      "intersection_type": "signalized_circle",
+      "has_signal": true
+    },
+    {
+      "id": "tech_mahindra_ph3",
+      "name": "Tech Mahindra / TCS Campus (Phase 3)",
+      "latitude": 18.574,
+      "longitude": 73.683,
+      "intersection_type": "cul_de_sac_hub",
+      "has_signal": false
+    },
+    {
+      "id": "kasarsai_phata",
+      "name": "Kasarsai-Nere Alternate Phata",
+      "latitude": 18.607,
+      "longitude": 73.695,
+      "intersection_type": "arterial_bypass",
+      "has_signal": false
+    },
+    {
+      "id": "punawale_chowk",
+      "name": "Punawale Junction (PCMC Bypass)",
+      "latitude": 18.625,
+      "longitude": 73.743,
+      "intersection_type": "bypass_junction",
+      "has_signal": false
+    },
+    {
+      "id": "tathawade_chowk",
+      "name": "Tathawade Chowk (Indira College)",
+      "latitude": 18.618,
+      "longitude": 73.753,
+      "intersection_type": "junction",
+      "has_signal": true
+    },
+    {
+      "id": "balewadi_stadium",
+      "name": "Balewadi Sports Complex / High Street",
+      "latitude": 18.5748,
+      "longitude": 73.7719,
+      "intersection_type": "arterial_junction",
+      "has_signal": true
+    },
+    {
+      "id": "baner_junction",
+      "name": "Baner Chowk (NH48 Access)",
+      "latitude": 18.5642,
+      "longitude": 73.7761,
+      "intersection_type": "signalized_flyover",
+      "has_signal": true
+    },
+    {
+      "id": "sus_pashan_chowk",
+      "name": "Sus-Pashan Highway Junction",
+      "latitude": 18.542,
+      "longitude": 73.778,
+      "intersection_type": "arterial_split",
+      "has_signal": false
+    },
+    {
+      "id": "mahaveer_chowk",
+      "name": "Datta Mandir Chowk (Wakad)",
+      "latitude": 18.603,
+      "longitude": 73.76,
+      "intersection_type": "local_junction",
+      "has_signal": false
+    },
+    {
+      "id": "suratwala_chowk",
+      "name": "Suratwala Plazzo Chowk",
+      "latitude": 18.5955,
+      "longitude": 73.738,
+      "intersection_type": "junction",
+      "has_signal": false
+    },
+    {
+      "id": "maan_junction",
+      "name": "Maan Gaon Link Chowk",
+      "latitude": 18.585,
+      "longitude": 73.699,
+      "intersection_type": "rural_arterial",
+      "has_signal": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "seg_wakad_bhumkar_n",
+      "start_node_id": "wakad_flyover",
+      "end_node_id": "bhumkar_chowk",
+      "name": "NH48 Service Road (Wakad to Bhumkar)",
+      "road_category": "highway_service",
+      "distance_meters": 1150,
+      "speed_limit_kmh": 60,
+      "baseline_speed_kmh": 50,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_bhumkar_wakad_bridge",
+      "start_node_id": "bhumkar_chowk",
+      "end_node_id": "wakad_bridge",
+      "name": "Bhumkar Chowk - Hinjawadi Link Road",
+      "road_category": "arterial",
+      "distance_meters": 760,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 40,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_wakad_bridge_shivaji",
+      "start_node_id": "wakad_bridge",
+      "end_node_id": "shivaji_chowk",
+      "name": "Hinjawadi Flyover Approach (Wakad to Shivaji Chowk)",
+      "road_category": "arterial",
+      "distance_meters": 1100,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 42,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_bhumkar_suratwala",
+      "start_node_id": "bhumkar_chowk",
+      "end_node_id": "suratwala_chowk",
+      "name": "Bhumkar - Suratwala Direct Bypass",
+      "road_category": "sub_arterial",
+      "distance_meters": 1800,
+      "speed_limit_kmh": 45,
+      "baseline_speed_kmh": 35,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_suratwala_shivaji",
+      "start_node_id": "suratwala_chowk",
+      "end_node_id": "shivaji_chowk",
+      "name": "Suratwala to Shivaji Chowk Link",
+      "road_category": "local",
+      "distance_meters": 480,
+      "speed_limit_kmh": 40,
+      "baseline_speed_kmh": 30,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_shivaji_blueridge",
+      "start_node_id": "shivaji_chowk",
+      "end_node_id": "blue_ridge_chowk",
+      "name": "Hinjawadi Main Road (Shivaji Chowk to Blue Ridge)",
+      "road_category": "arterial",
+      "distance_meters": 620,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 40,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_blueridge_ph1",
+      "start_node_id": "blue_ridge_chowk",
+      "end_node_id": "hinjawadi_ph1_circle",
+      "name": "Hinjawadi Main Road (Blue Ridge to Infosys Circle)",
+      "road_category": "arterial",
+      "distance_meters": 1150,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 45,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_ph1_wipro_ph2",
+      "start_node_id": "hinjawadi_ph1_circle",
+      "end_node_id": "wipro_circle_ph2",
+      "name": "Phase 1 - Phase 2 Spine Road",
+      "road_category": "arterial",
+      "distance_meters": 1880,
+      "speed_limit_kmh": 60,
+      "baseline_speed_kmh": 48,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_wipro_quadron",
+      "start_node_id": "wipro_circle_ph2",
+      "end_node_id": "quadron_ph2",
+      "name": "Phase 2 Quadron Access Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 720,
+      "speed_limit_kmh": 45,
+      "baseline_speed_kmh": 40,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_quadron_megapolis",
+      "start_node_id": "quadron_ph2",
+      "end_node_id": "megapolis_ph3",
+      "name": "Phase 2 to Phase 3 Megapolis Boulevard",
+      "road_category": "arterial",
+      "distance_meters": 1420,
+      "speed_limit_kmh": 55,
+      "baseline_speed_kmh": 48,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_megapolis_techm",
+      "start_node_id": "megapolis_ph3",
+      "end_node_id": "tech_mahindra_ph3",
+      "name": "Tech Mahindra & TCS Internal Spine (Phase 3)",
+      "road_category": "local",
+      "distance_meters": 750,
+      "speed_limit_kmh": 40,
+      "baseline_speed_kmh": 35,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_ph1_marunji",
+      "start_node_id": "hinjawadi_ph1_circle",
+      "end_node_id": "marunji_junction",
+      "name": "Marunji Link Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 1470,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 42,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_marunji_kasarsai",
+      "start_node_id": "marunji_junction",
+      "end_node_id": "kasarsai_phata",
+      "name": "Marunji - Kasarsai Bypass (Phase 3 Alternate)",
+      "road_category": "sub_arterial",
+      "distance_meters": 2950,
+      "speed_limit_kmh": 55,
+      "baseline_speed_kmh": 45,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_kasarsai_megapolis",
+      "start_node_id": "kasarsai_phata",
+      "end_node_id": "megapolis_ph3",
+      "name": "Kasarsai - Megapolis Connecting Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 3350,
+      "speed_limit_kmh": 55,
+      "baseline_speed_kmh": 45,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_bhumkar_dange",
+      "start_node_id": "bhumkar_chowk",
+      "end_node_id": "dange_chowk",
+      "name": "Thergaon - Dange Chowk Arterial",
+      "road_category": "arterial",
+      "distance_meters": 2200,
+      "speed_limit_kmh": 60,
+      "baseline_speed_kmh": 48,
+      "is_one_way": false,
+      "lanes": 3
+    },
+    {
+      "id": "seg_dange_tathawade",
+      "start_node_id": "dange_chowk",
+      "end_node_id": "tathawade_chowk",
+      "name": "Dange Chowk - Tathawade Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 2050,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 40,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_tathawade_punawale",
+      "start_node_id": "tathawade_chowk",
+      "end_node_id": "punawale_chowk",
+      "name": "Tathawade - Punawale Corridor",
+      "road_category": "sub_arterial",
+      "distance_meters": 1300,
+      "speed_limit_kmh": 50,
+      "baseline_speed_kmh": 42,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_punawale_marunji",
+      "start_node_id": "punawale_chowk",
+      "end_node_id": "marunji_junction",
+      "name": "Punawale - Marunji Outer Northern Bypass",
+      "road_category": "sub_arterial",
+      "distance_meters": 3400,
+      "speed_limit_kmh": 55,
+      "baseline_speed_kmh": 45,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_wakad_balewadi",
+      "start_node_id": "wakad_flyover",
+      "end_node_id": "balewadi_stadium",
+      "name": "NH48 Expressway (Wakad to Balewadi)",
+      "road_category": "expressway",
+      "distance_meters": 2200,
+      "speed_limit_kmh": 80,
+      "baseline_speed_kmh": 70,
+      "is_one_way": false,
+      "lanes": 4
+    },
+    {
+      "id": "seg_balewadi_baner",
+      "start_node_id": "balewadi_stadium",
+      "end_node_id": "baner_junction",
+      "name": "NH48 Expressway (Balewadi to Baner Chowk)",
+      "road_category": "expressway",
+      "distance_meters": 1350,
+      "speed_limit_kmh": 80,
+      "baseline_speed_kmh": 68,
+      "is_one_way": false,
+      "lanes": 4
+    },
+    {
+      "id": "seg_baner_sus",
+      "start_node_id": "baner_junction",
+      "end_node_id": "sus_pashan_chowk",
+      "name": "NH48 Expressway (Baner to Sus-Pashan)",
+      "road_category": "expressway",
+      "distance_meters": 2500,
+      "speed_limit_kmh": 80,
+      "baseline_speed_kmh": 72,
+      "is_one_way": false,
+      "lanes": 4
+    },
+    {
+      "id": "seg_bhumkar_mahaveer",
+      "start_node_id": "bhumkar_chowk",
+      "end_node_id": "mahaveer_chowk",
+      "name": "Datta Mandir Road (Wakad Internal)",
+      "road_category": "local",
+      "distance_meters": 780,
+      "speed_limit_kmh": 40,
+      "baseline_speed_kmh": 32,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_mahaveer_wakad_flyover",
+      "start_node_id": "mahaveer_chowk",
+      "end_node_id": "wakad_flyover",
+      "name": "Datta Mandir to Wakad Chowk Link",
+      "road_category": "local",
+      "distance_meters": 1200,
+      "speed_limit_kmh": 40,
+      "baseline_speed_kmh": 34,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_wipro_maan",
+      "start_node_id": "wipro_circle_ph2",
+      "end_node_id": "maan_junction",
+      "name": "Wipro to Maan Village Link Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 980,
+      "speed_limit_kmh": 45,
+      "baseline_speed_kmh": 38,
+      "is_one_way": false,
+      "lanes": 2
+    },
+    {
+      "id": "seg_maan_megapolis",
+      "start_node_id": "maan_junction",
+      "end_node_id": "megapolis_ph3",
+      "name": "Maan Village to Megapolis Alternate Road",
+      "road_category": "sub_arterial",
+      "distance_meters": 1380,
+      "speed_limit_kmh": 45,
+      "baseline_speed_kmh": 38,
+      "is_one_way": false,
+      "lanes": 2
+    }
+  ]
+}
